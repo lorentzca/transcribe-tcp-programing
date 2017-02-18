@@ -9,11 +9,13 @@
 コンパイル
 
 ```
-gcc <name>.c
+gcc -o build/server server.c
+gcc -o build/client client.c
 ```
 
 実行
 
 ```
-./<name>.out
+./build/server
+./build/client
 ```
