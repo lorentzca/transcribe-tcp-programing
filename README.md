@@ -9,7 +9,7 @@
 コンパイル
 
 ```
-gcc <name>.c
+gcc -o <name>.out <name>.c
 ```
 
 実行
